@@ -1,0 +1,17 @@
+Problema: Separar la basura
+
+Requisitos funcionales:
+  1. El sistema será capaz de separar en dos tipos los residuos:
+    1.1 Reciclables: Un residuo reciclable es aquel que es aprovechable para ser reutilizado
+      1.1.1 Organico: Un residuo organico es aquel desecho natural que puede utilizarse en labores del agro. Un residuo orgánico es biodegradable.
+      1.1.2 Papel: <definicion de papel>
+      1.2.3 Plástico: <definicion de plastico>
+    1.2 No reciclabe: Un residuo no aprovechable que debe ir a un centro de disposición final
+    1.3 Sanitario: Un residuo sanitario es aquel que debe tratarse/destruirse antes de ir a un sitio de disposición
+   
+   2. El sistema será capaz de agrupar los diferentes tipos de residuos en contenedores o bolsas de distinto color así:
+     2.1 Rojo: Residuos sanitarios
+     2.2 Verde: Residuos reciclables
+     2.3 Negro: Residuos no reciclables
+   
+   3. El sistema guarde cada dia cuantas bolsas de cada tipo clasificó
