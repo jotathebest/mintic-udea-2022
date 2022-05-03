@@ -30,3 +30,39 @@ Expected: 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
 *****
 
 6. Solve the challenge at https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true
+
+7. Body mass index (BMI) is a number calculated from a person’s weight and height.
+According to the Centers for Disease Control and Prevention, the BMI is a fairly
+reliable indicator of body fatness for most people. BMI does not measure body fat
+directly, but research has shown that BMI correlates to direct measures of body fat,
+such as underwater weighing and dual-energy X-ray absorptiometry. The formula for
+BMI is
+
+        weight/ height^2
+
+where weight is in kilograms and height is in meters.
+(a) Write a program that prompts for metric weight and height and outputs the BMI.
+(b) Write a program that prompts for weight in pounds and height in inches, converts
+the values to metric, and then calculates the BMI
+
+8. Write a program that verifies if an user is in a DB. To do so, your DB will be the following list:
+
+db = ["Jose Garcia", "Carolina Martinez", "Gonzalo Garcia", "Adam Philiphs", "George Washington"]
+
+The user will have three attempts to try to insert a name available in the db, if the attempts are reached, you should print a message "ERROR, max attemtps reached".
+If the user has not reached the attempts and the name does not exist, you should print "ERROR, the name does not exist"
+If the name is in the DB, you should print "OK, the name exists"
+
+Example 1:
+user: Jose Perez
+prompt: ERROR, the name does not exist
+user: George Washington
+prompt: Ok, the name exists
+
+Example 1:
+user: Jose Perez
+prompt: ERROR, the name does not exist
+user: Pepito Sanchez
+prompt: ERROR, the name does not exist
+user: George Orwell
+prompt: ERROR, max attemtps reached
