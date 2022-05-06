@@ -66,3 +66,38 @@ user: Pepito Sanchez
 prompt: ERROR, the name does not exist
 user: George Orwell
 prompt: ERROR, max attemtps reached
+
+8. Write a program to calculate the final note of a student given the following conditions:
+  1. The note is composed by four scores: exam, homework, lesson and practice
+  2. Every score has the following weights:
+     | exam     | 50% |
+     | homework | 20% |
+     | lesson   | 15% |
+     | practice | 15% |
+  3. The final note will be the sum of the product of the scores by their weights
+
+The program should retrieve from the user the four scores to calculate the final note, but this one should be printed as a letter by fitting the following rules:
+
+  | final note                    | letter  |
+  | Between 0 and 2 (inclusive)   |    E    |
+  | Between 2 and 3 (inclusive)   |    D    |
+  | Between 3 and 3.5 (inclusive) |    C    |
+  | Between 3.5 and 4 (inclusive) |    B    |
+  | Between 4 and 4.5 (inclusive) |    B+   |
+  | Greater than 5                |    A    |
+
+Example 1:
+exam = 5
+lesson, = 3 
+homework = 0
+practice = 1
+
+The program should print "C"
+
+Example 2:
+exam = 4.5
+lesson, = 2 
+homework = 3.9
+practice = 2.5
+
+The program should print "B"
