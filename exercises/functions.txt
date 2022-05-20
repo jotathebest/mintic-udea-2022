@@ -18,7 +18,7 @@
 # def <name> (<arg_1>, <arg_2>, ... <arg_n>):
 #     <algorithm>
 #     [optional] return <result>
-
+º
 # Exercise 4
 # Write a Python function that takes a list and returns a new list with unique elements of the first list.
 # input --> [1, 2, 3, 4, 5, 4, 3, 7, 9]
@@ -26,3 +26,15 @@
 
 # Exercise 5
 # Solve the challenge at https://www.hackerrank.com/challenges/find-a-string/problem
+
+# Exercise 6
+
+# Write a Python function to multiply all the numbers in a list. 
+# Sample List : (8, 2, 3, -1, 7)
+# Expected Output : -336
+
+# Exercise 7
+
+# Write a Python program to reverse a string
+# Sample String : "1234abcd"
+# Expected Output : "dcba4321"
