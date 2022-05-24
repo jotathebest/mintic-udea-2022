@@ -15,10 +15,22 @@
 # Exercise 3
 # Write a Python function to find the Max of three numbers.
 
+# 3.1 Receive inputs as comma separated
 # def <name> (<arg_1>, <arg_2>, ... <arg_n>):
 #     <algorithm>
 #     [optional] return <result>
-º
+
+# 3.2 Receive inputs as a args
+# def <name> (*args):
+#     <algorithm>
+#     [optional] return <result>
+
+# 3.3 Receive inputs as a kwargs
+# def <name> (**kwargs):
+#     <algorithm>
+#     [optional] return <result>
+
+
 # Exercise 4
 # Write a Python function that takes a list and returns a new list with unique elements of the first list.
 # input --> [1, 2, 3, 4, 5, 4, 3, 7, 9]
